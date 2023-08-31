@@ -4,6 +4,7 @@
     --c-master: #2E2F42;
     --c-text: #434455;
     --c-background-light: #FFF;
+    --c-background-middle: #F4F4FD;
 }
 
 body {
@@ -83,7 +84,6 @@ ul {
 
 .hero-title {
     color: var(--c-background-light);
-    text-align: center;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
@@ -127,7 +127,32 @@ ul {
 .advantages-text {
     color: var(--c-text);
     font-size: 16px;
-    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.team-section {
+    background-color: var(--c-background-middle);
+}
+
+.team-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.team-name {
+    color: var(--c-text);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.team-position {
+    color: var(--c-text);
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
