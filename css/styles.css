@@ -1,5 +1,6 @@
 :root {
     --c-brand: #4D5AE5;
+    --c-brand-pres: #404BBF;
     --c-master: #2E2F42;
     --c-text: #434455;
     --c-background-light: #FFF;
@@ -41,25 +42,64 @@ ul {
 
 .nav-link {
     color: var(--c-master);
-    font-family: Roboto;
+    font-family: inherit;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
+.nav-link:hover {
+    color: var(--c-brand-pres);
+}
+
 .address-mail {
     color: var(--c-text);
-    font-family: Roboto;
+    font-family: inherit;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
+.address-mail:hover {
+    color: var(--c-brand-pres);
+}
+
 .address-tel {
     color: var(--c-text);
-    font-family: Roboto;
+    font-family: inherit;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02;
+}
+
+.address-tel:hover {
+    color: var(--c-brand-pres);
+}
+
+.hero-section {
+    background-color: var(--c-master);
+}
+
+.hero-title {
+    color: var(--c-background-light);
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02;
+}
+
+.hero-button {
+    color: var(--c-background-light);
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04;
+    background-color: var(--c-brand);
+}
+
+.hero-button:active {
+    background-color: var(--c-brand-pres);
 }
