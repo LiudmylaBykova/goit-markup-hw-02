@@ -10,7 +10,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: var(--c-master);
+    color: var(--c-text);
     background-color: var(--c-background-light);
 }
 
@@ -123,6 +123,7 @@ ul {
 }
 
 .advantages-title {
+    color: var(--c-master);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -130,7 +131,6 @@ ul {
 }
 
 .advantages-text {
-    color: var(--c-text);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -141,6 +141,7 @@ ul {
 }
 
 .team-title {
+    color: var(--c-master);
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -149,20 +150,20 @@ ul {
 }
 
 .team-name {
-    color: var(--c-text);
+    color: var(--c-master);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
 .team-position {
-    color: var(--c-text);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
 .portfolio-title {
+    color: var(--c-master);
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -171,6 +172,7 @@ ul {
 }
 
 .portfolio-name {
+    color: var(--c-master);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -178,7 +180,6 @@ ul {
 }
 
 .portfolio-text {
-    color: var(--c-text);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02;
