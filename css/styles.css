@@ -1,0 +1,10 @@
+:root {
+    --c-master: #2E2F42;
+    --c-background-light: #FFF;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--c-master);
+    background-color: var(--c-background-light);
+}
