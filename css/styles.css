@@ -1,5 +1,7 @@
 :root {
+    --c-brand: #4D5AE5;
     --c-master: #2E2F42;
+    --c-text: #434455;
     --c-background-light: #FFF;
 }
 
@@ -7,4 +9,57 @@ body {
     font-family: 'Roboto', sans-serif;
     color: var(--c-master);
     background-color: var(--c-background-light);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.logo-left {
+    color: var(--c-brand);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo-right {
+    color: var(--c-master);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    color: var(--c-master);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.address-mail {
+    color: var(--c-text);
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.address-tel {
+    color: var(--c-text);
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02;
 }
