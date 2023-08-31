@@ -51,7 +51,8 @@ ul {
     letter-spacing: 0.02em;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+:focus {
     color: var(--c-brand-pres);
 }
 
@@ -63,7 +64,8 @@ ul {
     letter-spacing: 0.02em;
 }
 
-.address-mail:hover {
+.address-mail:hover,
+:focus {
     color: var(--c-brand-pres);
 }
 
@@ -75,7 +77,8 @@ ul {
     letter-spacing: 0.02em;
 }
 
-.address-tel:hover {
+.address-tel:hover,
+:focus {
     color: var(--c-brand-pres);
 }
 
@@ -99,6 +102,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.04em;
     background-color: var(--c-brand);
+    cursor: pointer;
 }
 
 .hero-button:active {
