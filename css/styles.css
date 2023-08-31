@@ -5,6 +5,7 @@
     --c-text: #434455;
     --c-background-light: #FFF;
     --c-background-middle: #F4F4FD;
+    --c-light: #F4F4FD;
 }
 
 body {
@@ -177,4 +178,35 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02;
+}
+
+.footer {
+    background-color: var(--c-master);
+}
+
+.footer-logo-left {
+    color: var(--c-brand);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer-logo-right {
+    color: var(--c-light);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer-text {
+    color: var(--c-light);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
