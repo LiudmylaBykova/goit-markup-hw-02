@@ -97,7 +97,9 @@ ul {
     cursor: pointer;
 }
 
-.hero-button:active {
+.hero-button:active,
+.hero-button:hover,
+.hero-button:focus {
     background-color: var(--c-brand-pres);
 }
 
