@@ -60,7 +60,7 @@ ul {
     font-style: normal;
 }
 
-.address-mail {
+.address-type {
     color: var(--c-text);
     font-family: inherit;
     font-size: 16px;
@@ -68,20 +68,7 @@ ul {
     letter-spacing: 0.02em;
 }
 
-.address-mail:hover,
-:focus {
-    color: var(--c-brand-pres);
-}
-
-.address-tel {
-    color: var(--c-text);
-    font-family: inherit;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-.address-tel:hover,
+.address-type:hover,
 :focus {
     color: var(--c-brand-pres);
 }
@@ -96,6 +83,7 @@ ul {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .hero-button {
@@ -109,7 +97,9 @@ ul {
     cursor: pointer;
 }
 
-.hero-button:active {
+.hero-button:active,
+:hover,
+:focus {
     background-color: var(--c-brand-pres);
 }
 
@@ -145,6 +135,7 @@ ul {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .team-list {
@@ -172,6 +163,7 @@ ul {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .portfolio-name {
@@ -197,7 +189,7 @@ ul {
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
