@@ -24,20 +24,20 @@ ul {
 
 .logo-left {
     color: var(--c-brand);
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .logo-right {
     color: var(--c-master);
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -54,6 +54,10 @@ ul {
 .nav-link:hover,
 :focus {
     color: var(--c-brand-pres);
+}
+
+.address-list {
+    font-style: normal;
 }
 
 .address-mail {
@@ -143,10 +147,15 @@ ul {
     text-transform: capitalize;
 }
 
+.team-list {
+    background-color: var(--c-background-light);
+}
+
 .team-name {
     color: var(--c-master);
-    font-size: 16px;
-    line-height: 1.5;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
@@ -176,7 +185,7 @@ ul {
 .portfolio-text {
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
 }
 
 .footer {
@@ -185,7 +194,7 @@ ul {
 
 .footer-logo-left {
     color: var(--c-brand);
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.16;
@@ -195,10 +204,10 @@ ul {
 
 .footer-logo-right {
     color: var(--c-light);
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
